@@ -1,0 +1,8 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "newland-pep",
+  "version": "0.1.0",
+  "description": "接入 Newland PEP 平台：装好 pep-cli、登录，之后由平台下发的 skills 接管。",
+  "author": { "name": "Newland Payment Technology" },
+  "skills": ["./"]
+}
