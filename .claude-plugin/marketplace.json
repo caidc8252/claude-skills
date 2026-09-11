@@ -1,12 +1,14 @@
 {
   "name": "newland",
   "description": "Newland Payment Technology 对外提供的 Claude Code 插件市场。",
-  "owner": { "name": "Newland Payment Technology" },
+  "owner": {
+    "name": "Newland Payment Technology"
+  },
   "plugins": [
     {
       "name": "newland-pep",
       "source": "./plugins/newland-pep",
-      "description": "接入 Newland PEP 平台：装好 pep-cli、登录，之后由平台下发的 skills 接管。"
+      "description": "Newland（新大陆）支付终端与 PEP 开发者平台的接入向导：装好 pep-cli、登录，之后由平台下发的 skills 接管。"
     }
   ]
 }
